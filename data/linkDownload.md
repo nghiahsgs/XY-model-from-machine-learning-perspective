@@ -4,7 +4,6 @@ https://drive.google.com/drive/folders/1vASzFrJBuOA8gw4dxPNlSYBKwktYa53q
 ##Delta=0.34 (L=12,16,24,32,40,48,56,64)
 https://drive.google.com/drive/folders/1QQLDsjrM3sgqkImZhP85N1VBw70EwAOn
 
-
 ##Delta=0.7 (L=12,16,24,32,64)
 https://drive.google.com/drive/folders/1H5iyhSRX3lGwFMUWLGBZlhKhdNK5SmwB
 
@@ -16,7 +15,7 @@ https://drive.google.com/drive/folders/1Q3rUxHsuznNKaxyfok30uYFcmzRQsFxb
 <br> Bên trong mỗi file h5 chứa các điểm dữ liệu (các data point), thông tin mõi data point bao gồm: cấu hình spin của data point đó (mảng 2 chiều L x L) ; label của data point đó; nhiệt độ của datapoint đó; L : kích thước mô phỏng 
 
 
-<br> (demo) code python đọc dữ liệu từ file h5
+<br> ###(demo) code python đọc dữ liệu từ file h5
 <br>import h5py
 <br>f=h5py.File('run01.h5','r')
 <br>L=f['L'][()]
