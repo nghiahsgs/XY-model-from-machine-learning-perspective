@@ -17,19 +17,19 @@ https://drive.google.com/drive/folders/1Q3rUxHsuznNKaxyfok30uYFcmzRQsFxb
 
 
 <br> (demo) code python đọc dữ liệu từ file h5
-import h5py
-f=h5py.File('run01.h5','r')
-L=f['L'][()]
-print(L)
+<br>import h5py
+<br>f=h5py.File('run01.h5','r')
+<br>L=f['L'][()]
+<br>print(L)
 
-//cấu hình của một datapoint
-f['3029917']['config'][()] //3029917 là 1 key ngẫu nhiên lấy từ f.keys()
+<br>//cấu hình của một datapoint
+<br>f['3029917']['config'][()] //3029917 là 1 key ngẫu nhiên lấy từ f.keys()
 
-//nhiệt độ
-f['3029917']['T'][()]
+<br>//nhiệt độ
+<br>f['3029917']['T'][()]
 
-//label của data point (int)
-f['3029917']['label'][()]
+<br>//label của data point (int)
+<br>f['3029917']['label'][()]
 
 
 
